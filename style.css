@@ -1,0 +1,156 @@
+@font-face {
+    font-family: roboto ;
+    src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family: roboto1;
+    src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+body {
+    font-family: roboto1;
+    background-color: hsl(234, 29%, 20%);
+  }
+  
+  .container {
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    border: 1px solid;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 50px;
+  }
+  
+  .left-bx {
+    height: 20rem;
+    width: 25rem;
+  }
+  
+  .left-bx p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .left-bx img {
+    padding-right: 1%;
+    width: 15px;
+  }
+  
+  .left-bx li {
+    display: block;
+  }
+  
+  .left-bx input {
+    margin-top: 2%;
+    padding-left: 2%;
+    width: 96%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-family: roboto1;
+    cursor: pointer;
+  }
+  
+  #b1 {
+    padding-left: 2%;
+    width: 96%;
+    height: 50px;
+    background-color: hsl(234, 29%, 20%);
+    font-family: roboto;
+    color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #b1:hover {
+    background-image: url(./assets/images/bg.PNG);
+    border: none;
+  }
+  
+  .right-bx img {
+    width: 350px;
+  }
+  
+  @media screen and (max-width: 375px) {
+    .container {
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+  
+    .left-bx {
+      height: auto;
+      width: 100%;
+    }
+  
+    .left-bx input {
+      margin-top: 5%;
+      padding-left: 5%;
+      width: 90%;
+    }
+  }
+  
+
+.main{
+
+    background-color:  hsl(234, 29%, 20%);
+    display: flex;
+    justify-content: center;
+}
+
+.container-1{
+    margin-top: 100px;
+   width: 350px;
+   height: 300px;
+   padding: 30px;
+    background-color:hsl(0, 0%, 100%) ;
+    
+    border-radius: 30px;
+    align-content: center;
+    
+}
+.container-1 img{
+    margin-top: 20px;
+    width: 50px;
+}
+
+.button-d{
+    height: 40px;
+    background-color:hsl(235, 18%, 26%) ;
+    border-radius: 6px;
+    font-family: roboto;
+    color: whitesmoke;
+    width: 325px;
+    cursor: pointer;
+    
+}
+
+.button-d:hover{
+    background-image: url(./assets/images/bg.PNG);
+    border: none;
+   
+}
+.attribution{
+  display: flex;
+  justify-content: center;    
+}
+
+
+@media (max-width: 375px) {
+  /* Mobile-specific CSS styles */
+  body {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .container {
+    width: 20%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+}
