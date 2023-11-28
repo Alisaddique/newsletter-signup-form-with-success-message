@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  
+  <div class="container">   
+
+    <div class="left-bx">
+    
+      <h1>   Stay updated!  </h1>
+      <p>Join 60,000+ product managers receiving monthly updates on:      </p>
+      
+        <p>  <img src="./assets/images/icon-success.svg" alt="icon-success">  Product discovery and building what matters</p>
+        <p>  <img src="./assets/images/icon-success.svg" alt="icon-success"> Measuring to ensure updates are a success</p>
+        <p>  <img src="./assets/images/icon-success.svg" alt="icon-success">And much more!</p>
+
+        <form action="">
+          <label for="email"><b> Email address</b></label><br>
+          <input id="myInput" type="text" name="email" placeholder="email@company.com"> <br><br>
+          <button id="b1" type="button" onclick="redirectTopage()" >  Subscribe to monthly newsletter  </button>
+          </form>
+        
+
+
+
+    </div>
+    <div class="right-bx">  
+    <img src="./assets/images/illustration-sign-up-desktop.svg" alt="illustration-sign-up-desktop">  
+   </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ali Saddique</a>.
+</div>
+
+
+  <script>
+
+var myInput = document.getElementById("myInput");
+
+myInput.addEventListener("mouseover", function() {
+  myInput.value = "ash@loremcompany.com";
+});
+
+// myInput.addEventListener("mouseout", function() {
+///  myInput.value = "email@company.com";
+//}) 
+
+
+function redirectTopage(){
+
+  window.location.href="success.html"
+
+}
+
+function DismissPage(){
+
+  window.location.href="index.html"
+  redirectTopage();
+}
+
+  </script>
+
+  
+
+</body>
+</html>
